@@ -1,0 +1,140 @@
+body {
+    margin: auto;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav {
+    background-color: rgb(0, 0, 0); /*temporaire*/
+    display: flex;
+}
+
+.nav> .space> .logo {
+    width: 270px;
+    margin-left: 35px;
+    padding-bottom: 15px;
+}
+
+.nav> .home {
+    margin-top: 25px;
+}
+
+.nav> .home> a {
+    text-decoration: none;
+    color: #5687a6;
+    margin-left: 30px;
+    
+}
+.nav> .home> span> a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.square {
+    color: white;
+    font-size: 2px;
+}
+
+/*****   Fin Nav bar   *****/
+/*****   Début Menu   *****/
+
+.container {
+    display: flex;
+}
+.container> .menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);/*temporaire*/
+    margin-top: 1px;
+    width: 8%;
+}
+.container> .menu> a {
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*****   fin menu     *****/
+/*****   début main   *****/
+
+.discover {
+    margin-top: 1px;
+    background-color: black;
+    width: 100%;
+    margin-left: 1px;
+    height: 90vh;
+}
+.discover> .universe {
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 30px;
+    padding-left: 25px;
+    width: 90%;
+    color: white;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    background-image: url(images/photo-1562571046-d34f606e7693.avif);    
+}
+.discover> .universe> h1 {
+    color: #5687a6;
+    margin-top: 25px;
+    margin-bottom: -5px;
+    font-size: large;
+}
+.discover> .universe> p {
+    color: white;
+}
+.discover> .universe> button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-style: solid;
+    border-width: 8px;
+}
+
+/**** fin discover ****/
+/**** début share  ****/
+
+.share {
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 30px;
+    padding-left: 25px;
+    width: 90%;
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 25px;
+    background-image: url(images/photo-1562571046-d34f606e7693.avif);
+}
+.share> h1 {
+    color: #5687a6;
+    font-size: large;
+}
+.share> p {
+    color: white;
+    margin-bottom: 50px;
+}
+.share> .nombers {
+    color: #5687a6;
+}
+.share> .nombers> .nombres {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 60px;
+    margin-bottom: 50px;
+}
+.share> .nombers> .nombres> li > p {
+    color: white;
+    margin-top: 1px;
+}
+.share> button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-style: solid;
+    border-width: 8px;
+}

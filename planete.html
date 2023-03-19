@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the universe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar-height"></div>
+    <div class="navbar">
+        <div class="contain-burger">
+            <div class="burger"></div>
+        </div>
+        <nav class="nav">
+            <img src="./images/logotype.png" alt="Logotype" />
+            <a href="index.html" class="navbar-link active">Accueil</a>
+        </nav>
+        </div>
+        <nav class="vertical-navbar">
+        <a href="planets.html" class="nav-vertical-link">
+            <span class="fas fa-globe fa-3x"></span>
+            <p>Planètes</p>
+        </a>
+        <a href="#" class="nav-vertical-link">
+            <span class="fas fa-rocket fa-3x"></span>
+            <p>Véhicules</p>
+        </a>
+        <a href="#" class="nav-vertical-link">
+            <span class="fab fa-reddit-alien fa-3x"></span>
+            <p>Personnes</p>
+        </a>
+        </nav>
+        <main class="container container-1-2">
+        <div class="card sticky flex tall">
+            <div class="card-header">
+            <h2 class="title text-primary">Planètes</h2>
+            <div class="form-group">
+                <select class="select pr-5">
+                <option value="">Par population</option>
+                <option value="test">1</option>
+                <option value="test">2</option>
+                <option value="test">3</option>
+                <option value="test">4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="form-group form-group-search">
+                <input
+                    type="text"
+                    class="form-control searchbar"
+                    id="searchbar"
+                    placeholder="Faites votre recherche"
+                />
+                <span class="fas fa-search icon"></span>
+                </div>
+            </div>
+            </div>
+
+            <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Terrain</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody-planets"></tbody>
+            </table>
+        </div>
+            <div class="card-footer">
+            <div class="medium-information mt-5">
+                <span class="info"><span class="countPlanets"></span> resultat(s)</span>
+            </div>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+            <div class="information mb-5">
+                <div>
+                    <div class="bold text-primary" id="name">Veuillez selectionner une planète</div>
+                    <div class="info mb-3">Info supplémentaire</div>
+                </div>
+            </div>
+            <div class="small-information mt-5">
+                <a href="#" class="link" id="population"></a>
+                <i class="fa-solid fa-people-line"></i>
+            </div>
+            <div class="mt-5 d-flex right">
+                <div class="btn">En savoir plus</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/planets.js"></script>
+</body>
+</html>
